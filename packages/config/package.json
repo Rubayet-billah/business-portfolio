@@ -1,0 +1,35 @@
+{
+  "name": "@agency/config",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./eslint/base": "./eslint/base.mjs",
+    "./eslint/next": "./eslint/next.mjs",
+    "./typescript/base.json": "./typescript/base.json",
+    "./typescript/nextjs.json": "./typescript/nextjs.json",
+    "./typescript/react-library.json": "./typescript/react-library.json",
+    "./tailwind/tokens.css": "./tailwind/tokens.css",
+    "./colors": "./colors/index.ts"
+  },
+  "scripts": {
+    "gen": "node colors/generate.mjs",
+    "build": "node colors/generate.mjs",
+    "lint": "eslint .",
+    "type-check": "tsc --noEmit",
+    "test": "echo \"@agency/config: no tests\" && exit 0"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint-config-next": "16.3.3",
+    "eslint-config-prettier": "^9.1.0",
+    "typescript-eslint": "^8.19.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=9",
+    "typescript": ">=5.5"
+  }
+}

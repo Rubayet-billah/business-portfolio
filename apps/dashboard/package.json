@@ -1,0 +1,11 @@
+{
+  "name": "@agency/dashboard",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Agency CMS / admin dashboard — Next.js 16. Stub; built in Stage 3c.",
+  "scripts": {
+    "lint": "echo \"@agency/dashboard: stub — nothing to lint yet\" && exit 0",
+    "type-check": "echo \"@agency/dashboard: stub — nothing to type-check yet\" && exit 0",
+    "test": "echo \"@agency/dashboard: stub — no tests yet\" && exit 0"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules
+.next
+.turbo
+dist
+build
+coverage
+pnpm-lock.yaml
+*.tsbuildinfo
+next-env.d.ts
+
+# generated from packages/config/colors/palette.mjs
+packages/config/tailwind/tokens.css
+packages/config/colors/index.ts

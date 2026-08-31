@@ -1,0 +1,11 @@
+{
+  "name": "@agency/api",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Agency shared backend — Express + MongoDB. Stub; built in Stage 3b.",
+  "scripts": {
+    "lint": "echo \"@agency/api: stub — nothing to lint yet\" && exit 0",
+    "type-check": "echo \"@agency/api: stub — nothing to type-check yet\" && exit 0",
+    "test": "echo \"@agency/api: stub — no tests yet\" && exit 0"
+  }
+}
