@@ -1,0 +1,6 @@
+/**
+ * Placeholder stylesheet for the UI package. Design tokens live in
+ * `@agency/config/tailwind/tokens.css`, which each app imports. This file
+ * exists so the shadcn CLI has a target and so consumers can `@import
+ * '@agency/ui/styles.css'` later if package-scoped styles are added.
+ */

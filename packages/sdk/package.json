@@ -1,0 +1,24 @@
+{
+  "name": "@agency/sdk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "type-check": "tsc --noEmit",
+    "test": "echo \"@agency/sdk: no tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "@agency/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@agency/config": "workspace:*",
+    "eslint": "^9.17.0",
+    "typescript": "^5.7.3"
+  }
+}
