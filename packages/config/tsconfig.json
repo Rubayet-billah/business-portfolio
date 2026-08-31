@@ -1,0 +1,9 @@
+{
+  "extends": "./typescript/base.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "noEmit": true
+  },
+  "include": ["colors/index.ts"],
+  "exclude": ["node_modules"]
+}
