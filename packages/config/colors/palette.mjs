@@ -24,7 +24,7 @@
  */
 
 /** Brand hue — rotate this one number to re-tint the whole system. */
-export const BRAND_HUE = 264; // cobalt / blue
+export const BRAND_HUE = 260; // marketorr royal blue
 
 /** @type {{ light: SemanticSet, dark: SemanticSet }} */
 export const semantic = {
@@ -37,7 +37,7 @@ export const semantic = {
     popover: 'oklch(1 0 0)',
     popoverForeground: 'oklch(0.16 0.02 264)',
 
-    primary: 'oklch(0.55 0.233 264)',
+    primary: 'oklch(0.58 0.16 260)',
     primaryForeground: 'oklch(0.985 0.005 264)',
 
     secondary: 'oklch(0.968 0.007 264)',
@@ -59,7 +59,7 @@ export const semantic = {
 
     border: 'oklch(0.922 0.006 264)',
     input: 'oklch(0.922 0.006 264)',
-    ring: 'oklch(0.55 0.233 264)',
+    ring: 'oklch(0.58 0.16 260)',
 
     brandNavy: 'oklch(0.28 0.055 264)',
     brandNavyForeground: 'oklch(0.97 0.01 264)',
@@ -110,7 +110,7 @@ export const semantic = {
  * for anything that should respond to the theme).
  */
 export const ramps = {
-  primary: 'oklch(0.55 0.233 264)',
+  primary: 'oklch(0.58 0.16 260)',
   neutral: 'oklch(0.55 0.012 264)',
 };
 
